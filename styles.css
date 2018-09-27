@@ -1,0 +1,151 @@
+div.left {
+  position: absolute;
+  left: 390px;
+  top: 150px;
+}
+
+div.middle {
+  position: absolute;
+  left: 490px;
+  top:300px;
+}
+
+div.right {
+  position: absolute;
+  left: 870px;
+  top: 150px;
+}
+
+#left,#right{
+  position: absolute;
+  width: 290px;
+  float: left;
+}
+
+.middle{
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+}
+
+.middle > .icons {
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: transform 400ms;
+  width: 400px;
+  z-index: 2;
+}
+.middle > .icons.warp {
+  transition: none;
+  z-index: 1;
+}
+
+#theMiddle{
+  left: 490px;
+  top: 270px;
+}
+
+#aboutTextID{
+  position: absolute;
+  display: none;
+  height: 300px;
+  width: 400px;
+  left: 490px;
+  top: 250px;
+  overflow-y: scroll
+}
+
+.backButton{
+  background: #662c92 ;
+	border-radius: 40px;
+	color: #fff;
+	font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+	height: 40px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 100px;
+	z-index: 2;
+  position: absolute;
+  display: none;
+  left: 490px;
+  top: 200px;
+  outline-width: 0;
+
+}
+
+
+#applyButtonID{
+  position: absolute;
+  display: none;
+  height: 20px;
+  width: 120px;
+  left: 600px;
+  top:300px;
+}
+#aboutID{
+  display: none;
+}
+#memeDownloadID{
+  position: absolute;
+  display: none;
+  height: 300px;
+  width: 400px;
+  left: 490px;
+  top: 300px;
+}
+#WherestheDownload{
+  position: absolute;
+  display: none;
+  left: 490px;
+  top: 250px;
+  font-size: 18px;
+  font-family: inherit;
+  font-style: bold;
+}
+.bottomImage{
+  transform: scale(.7);
+  top: 600px;
+  left: 590px;
+  position: fixed;
+}
+.bottomImage2{
+  transform: scale(-.7,.7);
+  top: 600px;
+  left: -1000px;
+  position: fixed;
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.fa-map{
+  color: #662c92;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.fa-download{
+  color: #662c92;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
